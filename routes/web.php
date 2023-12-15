@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/tambah-klub', [DataClubController::class, 'index']);
 Route::post('/tambah-klub/tambah', [DataClubController::class, 'store']);

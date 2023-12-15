@@ -73,8 +73,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="mb-3">
-                                    <button type="button" class="btn btn-primary" onclick="addSkor()">Tambah
-                                        Skor</button>
+                                    <button type="button" class="btn btn-primary" onclick="addSkor()">Add</button>
                                 </div>
                             </div>
                         </div>
